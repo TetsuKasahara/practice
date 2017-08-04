@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>forMarkdown_B</title>
+  <style>
+    h1 {
+      border-bottom: 1px lightgrey solid;
+    }
+
+    blockquote {
+      border-left: 3px lightgrey solid;
+      padding-left: 10px;
+    }
+
+    pre {
+      background-color: #f7f7f7;
+    }
+  </style>
+</head>
+<body>
+  <h1>(見出しレベル1)forMarkdown_B</h1>
+  <div>
+    <h2>(見出しレベル2)リスト</h2>
+    <ul>
+      <li>listA</li>
+      <li>listB</li>
+      <li>listC</li>
+    </ul>
+  </div>
+  <div>
+    <h2>(見出しレベル2)水平線</h2>
+    <hr> 
+  </div>
+  <div>
+    <h2>(見出しレベル2)引用</h2>
+    <blockquote>
+      深淵をのぞく時、深淵もまたこちらをのぞいているのだ<br>
+      <br>
+      Friedrich Wilhelm Nietzsche
+    </blockquote>
+  </div>
+  <div>
+    <h2>(見出しレベル2)ソース埋め込み</h2>
+    <pre>
+      /**
+       * 第一引数が第二引数より大きいかどうかを判定します。
+       * @return {boolean} 真偽値を返す
+       */
+      function isBigger(num1, num2){
+        if(num1 > num2){
+          return true;
+        } else {
+          return false;
+        }
+      }
+    </pre>
+  </div>
+</body>
+</html>
