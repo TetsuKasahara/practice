@@ -7,7 +7,7 @@
 ## (見出しレベル2)リンク 
 [README.md](https://github.com/WaaadaTak/practice/tree/feature/tutorial_TetsuKasahara/README.md)
 ## (見出しレベル2)画像埋め込み
-![ダミー画像](https://github.com/WaaadaTak/practice/tree/feature/tutorial_TetsuKasahara/add/icon_github.jpg)
+![](https://github.com/WaaadaTak/practice/tree/feature/tutorial_TetsuKasahara/add/icon_github.jpg)
 ## (見出しレベル2)テーブル
 | col1 | col2 | col3 |
 |:-----------|:-----------:|-----------:|
